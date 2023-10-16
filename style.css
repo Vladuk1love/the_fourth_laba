@@ -1,0 +1,100 @@
+
+body {
+    background-color: #e9e9e9;
+    color: #0f141e;
+    font-size: 27px;
+    font-weight: normal;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin: auto;
+}
+@media(max-width: 700px){
+    body {
+        font-size: 18px;
+    }
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: lightblue;
+}
+
+
+.avatar {
+    box-shadow: 2px 2px 2px 2px lightgrey;
+    margin-right: 20px;
+    width: 350px;
+    height: 400px;
+
+}
+
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info-text {
+    background-color: #d2e9e9;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    border-radius: 50px;
+    box-shadow: #d2e9fe 1px 1px 1px 1px;
+}
+@media(max-width: 700px) {
+    .info{
+        display: block;
+    }
+    .info-text{
+        text-align: center;
+    }
+    .wrap {
+        text-align: center;
+    }
+    .avatar{
+        width: 250px;
+        height: 300px;
+    }
+}
+.bio_text {
+    margin-top: 20px;
+    background-color: #d2e9e9;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 25px;
+    box-shadow: #d2e9fe 1px 1px 1px 1px;
+}
+
+.hobbies {
+    text-align: center;
+    margin-outside: 20px;
+    background-color: #d2e9e9;
+    box-shadow: #d2e9fe 1px 1px 1px 1px;
+    border-radius: 50px;
+}
+.labs {
+    text-align: center;
+    margin-outside: 20px;
+    background-color: #d2e9e9;
+    box-shadow: #d2e9fe 1px 1px 1px 1px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+ul{
+
+    list-style: inside;
+}
+.my_links{
+    text-align: center;
+    box-shadow: #d2e9fe 1px 1px 1px 1px;
+}
